@@ -1,0 +1,10 @@
+
+
+let input = document.querySelector(".msg-form__contenteditable");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.querySelector(".msg-form__send-button").click();
+  }
+});
