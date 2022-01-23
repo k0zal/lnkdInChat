@@ -1,6 +1,6 @@
 /*1. Use the "Run Javascript" extension on Google Chrome.
 2. Paste the code into the extension while @ LinkedIn and press the Save & Run button.
-3. PROFIT! or not, i cant remember ever using the chat.*/                               
+3. PROFIT! or not.                             
 
       
 let input = document.querySelector(".msg-form__contenteditable");
